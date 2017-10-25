@@ -1,0 +1,69 @@
+#main {
+  background-color: #333; }
+  #main::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+#top-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+#red {
+  background-color: red;
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+#orange {
+  background-color: orange;
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+#yellow {
+  background-color: yellow;
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  left: calc(33.33333% - 26.66667px + 20px);
+  position: relative; }
+
+@media screen and (max-width: 768px) {
+  #red, #orange, #yellow {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; } }
+
+#middle-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+#green {
+  background-color: green;
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px; }
+
+#blue {
+  background-color: blue;
+  width: calc(66.66667% - 33.33333px);
+  float: left;
+  margin-left: 20px; }
+
+#bottom-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+#indigo {
+  background-color: indigo;
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  left: calc(66.66667% - 33.33333px + 20px);
+  position: relative; }
+
+/*# sourceMappingURL=app.css.map */
